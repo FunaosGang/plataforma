@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Funaos Gang - Página Oficial</title>
+<script>
+function acceder(){
+  window.open("https://funaosgang.webnode.es", 'Funaos Gang', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=1000,height=500,left = 390,top = 50');
+}
+</script>
+<script language="JavaScript"> 
+function right(e) {  
+if (navigator.appName == 'Netscape' && e.which == 3) { 
+alert ("FG on Top");
+return false;
+} 
+else 
+if (navigator.appName == 'Microsoft Internet Explorer' && event.button==2) {
+alert ("FG on Top");
+return false; 
+} 
+return true; 
+} 
+document.onmousedown = right; 
+</script>
+</head>
+<body>
+  <h1>Da click al botón para acceder a la web de Funaos Gang</h1>
+  <button onclick="acceder()">
+  <a href="javascript:acceder()" style="width: 100px; height: 40px;">Ingresar</a>
+<body>
+</html>
